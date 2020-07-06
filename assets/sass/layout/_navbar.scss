@@ -1,0 +1,48 @@
+.nav  {
+  height: 5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  }
+
+@media (max-width: 768px) {
+  .nav {
+    height: 6rem;  }
+    }
+
+.nav__menu{
+  justify-content: center;
+  display: flex;
+  margin-top: 1.5rem;
+  margin-right: 5rem;
+  }
+
+.nav__logo{
+  flex-grow: 1;
+  margin-left: 5rem;
+  justify-content: center;
+  margin-top: 1rem;
+  }
+
+@media (max-width: 768px) {
+  .nav__logo {
+    margin-left: 2rem;  }
+    }
+
+.nav__item{
+  cursor: pointer;
+  padding: 0 15px;
+  text-decoration: none;
+  color: $smoky-black;
+  }
+
+@media (max-width: 768px) {
+  .nav__item {
+   display: none; }
+   }
+
+
+.nav__hamburger{
+  cursor: pointer;
+  padding: 0 15px;
+  }
